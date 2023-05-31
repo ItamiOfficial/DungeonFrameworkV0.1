@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2002c114a3ec88145a4b4a58b78ac5f2, type: 3}
+  m_Name: DevDungeon_SmallFloors
+  m_EditorClassIdentifier: 
+  MinRoomCount: 3
+  MaxRoomCount: 5
+  MinRoomSize: 0.5
+  MaxRoomSize: 0.733
+  MaxGrowsPerRoom: 1
+  MinGrowsTotal: 1
+  MaxGrowsTotal: 2
+  CellsX: 4
+  CellsY: 3
+  CellWidth: 14
+  CellHeight: 14
+  TilePrefab: {fileID: 6741443100682643751, guid: 26ad7911658c4f849b32ff73a9922a17, type: 3}
